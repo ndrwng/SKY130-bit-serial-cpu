@@ -7,7 +7,7 @@
 
 `default_nettype none
 
-module tt_um_cpu_top (
+module tt_um_bit_serial_cpu_top (
     input  wire [7:0] ui_in,       // Inputs for instruction data (through DIP switches)
     output wire [7:0] uo_out,      // Outputs to drive LEDs
     input  wire [7:0] uio_in,      // IOs: Input path
